@@ -1,6 +1,7 @@
 import React from 'react';
-import TicketList from './TicketList';
+import TicketList from './locationList';
 import Header from './Header';
+import Image from './Image';
 // import { Switch, Route } from 'react-router-dom';
 // import Error404 from './Error404';
 
@@ -9,6 +10,7 @@ function App(){
     <div>
       <Header/>
       <TicketList/>
+      <Image/>
     </div>
   );
 }
